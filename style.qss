@@ -1,0 +1,62 @@
+QMainWindow {
+    background-color: #1d1f21;
+}
+
+#bookmarkListView {
+    border: 1px solid #0a0a0a;
+    background-color: #2f2f2f;
+    font-family: "Droid Sans Mono";
+    color: white;
+    outline: none;
+}
+#bookmarkListView::item {
+    border: 0;
+    padding: 6px 8px;
+}
+#bookmarkListView::item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+#bookmarkListView::item:selected {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#menuListView {
+    border: 1px solid #0a0a0a;
+    background: #2f2f2f;
+}
+
+#commandInputPrompt {
+    padding: 2px 6px;
+    padding-right: 1px;
+    border: 1px solid #0a0a0a;
+    border-right: none;
+    background-color: #2f2f2f;
+    color: white;
+    font-family: "Droid Sans Mono";
+}
+
+#commandInput {
+    padding: 2px 6px;
+    padding-left: 0px;
+    border: 1px solid #080808;
+    border-left: none;
+    background-color: #2f2f2f;
+    color: white;
+    font-family: "Droid Sans Mono";
+}
+
+QScrollBar:vertical {
+    background: #2f2f2f;
+}
+
+QScrollBar::handle:vertical {
+    background: #1d1f21;
+}
+
+QScrollBar::add-line:vertical {
+    background: #2f2f2f;
+}
+
+QScrollBar::sub-line:vertical {
+    background: #2f2f2f;
+}
