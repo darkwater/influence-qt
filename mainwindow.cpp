@@ -37,6 +37,7 @@ void MainWindow::loadBookmarks()
     QStringList *bookmarks = new QStringList();
 
     // Open bookmarks file
+    // TODO: adjust path
     QFile file("/home/dark/.config/influence/bookmarks.txt");
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
         return; // TODO: Handle better

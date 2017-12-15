@@ -4,7 +4,7 @@ QMainWindow {
 
 #bookmarkListView {
     border: 1px solid #0a0a0a;
-    background-color: #2f2f2f;
+    background-color: #2b2d2f;
     font-family: "Droid Sans Mono";
     color: white;
     outline: none;
@@ -22,7 +22,7 @@ QMainWindow {
 
 #menuListView {
     border: 1px solid #0a0a0a;
-    background: #2f2f2f;
+    background: #2b2d2f;
 }
 
 #commandInputPrompt {
@@ -30,7 +30,7 @@ QMainWindow {
     padding-right: 1px;
     border: 1px solid #0a0a0a;
     border-right: none;
-    background-color: #2f2f2f;
+    background-color: #2b2d2f;
     color: white;
     font-family: "Droid Sans Mono";
 }
@@ -40,13 +40,13 @@ QMainWindow {
     padding-left: 0px;
     border: 1px solid #080808;
     border-left: none;
-    background-color: #2f2f2f;
+    background-color: #2b2d2f;
     color: white;
     font-family: "Droid Sans Mono";
 }
 
 QScrollBar:vertical {
-    background: #2f2f2f;
+    background: #2b2d2f;
 }
 
 QScrollBar::handle:vertical {
@@ -54,9 +54,9 @@ QScrollBar::handle:vertical {
 }
 
 QScrollBar::add-line:vertical {
-    background: #2f2f2f;
+    background: #2b2d2f;
 }
 
 QScrollBar::sub-line:vertical {
-    background: #2f2f2f;
+    background: #2b2d2f;
 }
